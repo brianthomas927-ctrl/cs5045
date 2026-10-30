@@ -16,9 +16,9 @@ Run from this directory:
     python3 example.py
 """
 
+
 import pandas as pd
-import matplotlib.pyplot as plt
-import matplotlib.ticker as ticker
+import matplotlib.pyplot as plt  # <-- ADD THIS LINE HERE
 
 # -- REPRESENT ----------------------------------------------------------------
 # Load the dataset from CSV into a DataFrame; bringing raw data into memory
